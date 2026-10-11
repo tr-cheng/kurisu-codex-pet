@@ -1,0 +1,22 @@
+# Whitelist: everything is ignored unless listed below.
+# The sprites are official Steins;Gate visual-novel art (no licence) - the originals and every
+# image derived from them (frames, atlas, samples, previews, QA images) stay on the local machine.
+/*
+!/.gitignore
+!/README.md
+!/LICENSE
+!/tools/
+/tools/*
+!/tools/fetch_livepng_casual.py
+!/tools/build_casual.py
+!/tools/install_pet.py
+!/sources/
+/sources/*
+!/sources/SOURCE.md
+
+# never commit images or caches anywhere
+*.png
+*.webp
+*.gif
+*.jpg
+__pycache__/
